@@ -11,7 +11,7 @@
     "extra": {
     	"laravel": {
     		"providers": [
-    			"Harishariyanto\\Notifications\\CodebaseServiceProvider"
+    			"Harishariyanto\\Notifications\\NotificationsServiceProvider"
     		]
     	}
     },
