@@ -1,5 +1,23 @@
 {
     "name": "harishariyanto/notifications",
     "description": "Notification system",
-    "require": {}
+    "authors": [
+        {
+            "name": "Haris Hariyanto",
+            "email": "harishariyanto299@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+    	"laravel": {
+    		"providers": [
+    			"Harishariyanto\\Notifications\\CodebaseServiceProvider"
+    		]
+    	}
+    },
+    "autoload": {
+    	"psr-4": {
+    		"Harishariyanto\\Notifications\\": "src"
+    	}
+    }
 }
